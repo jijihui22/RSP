@@ -1,0 +1,39 @@
+.box{
+    border: 1px solid skyblue;
+    width: 50vw;
+    height: 90vh;
+    color: rgb(21, 216, 135);
+    position: relative;
+
+}
+.item-h1, .item-h2{
+    text-align: center;
+}
+.item-h2{
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.item-img{
+    max-width: 350px;
+    max-height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.win{
+    border: 10px solid green;  color: green; 
+}
+.lose{
+    border: 10px solid red;  color: red; 
+}
+.tie{
+    border: 10px solid black;  color: black; 
+}
