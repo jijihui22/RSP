@@ -6,13 +6,15 @@
     position: relative;
 
 }
-.item-h1, .item-h2{
+h1, h2{
     text-align: center;
 }
-.item-h2{
+p{
     position: absolute;
     top: 84%;
     left: 50%;
+    font-size: 28px;
+    font-weight: bolder;
     transform: translate(-50%,-50%);
 }
 .item-img{
@@ -29,11 +31,8 @@
     justify-content: center;
 }
 .win{
-    border: 10px solid green;  color: green; 
-}
-.lose{
-    border: 10px solid red;  color: red; 
+    border: 8px solid green;  color: green; 
 }
 .tie{
-    border: 10px solid black;  color: black; 
+    border: 8px solid black;  color: black; 
 }
