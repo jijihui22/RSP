@@ -18,8 +18,8 @@ p{
     transform: translate(-50%,-50%);
 }
 .item-img{
-    max-width: 350px;
-    max-height: 300px;
+    max-width: 27vw;
+    max-height: 38vh;
     position: absolute;
     top: 50%;
     left: 50%;
